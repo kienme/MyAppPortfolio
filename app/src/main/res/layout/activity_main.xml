@@ -60,7 +60,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/button_margin"
                     android:layout_marginTop="?actionBarSize"
-                    android:text="@string/button_text"/>
+                    android:text="@string/button_text"
+                    android:onClick="onClick"/>
 
                 <Button android:id="@+id/button2"
                     android:background="@drawable/button_bg"
@@ -68,7 +69,8 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/button_margin"
-                    android:text="@string/button2_text"/>
+                    android:text="@string/button2_text"
+                    android:onClick="onClick"/>
 
                 <Button android:id="@+id/button3"
                     android:background="@drawable/button_bg"
@@ -76,7 +78,8 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/button_margin"
-                    android:text="@string/button3_text"/>
+                    android:text="@string/button3_text"
+                    android:onClick="onClick"/>
 
                 <Button android:id="@+id/button4"
                     android:background="@drawable/button_bg"
@@ -84,7 +87,8 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/button_margin"
-                    android:text="@string/button4_text"/>
+                    android:text="@string/button4_text"
+                    android:onClick="onClick"/>
 
                 <Button android:id="@+id/button5"
                     android:background="@drawable/button_bg"
@@ -92,7 +96,8 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/button_margin"
-                    android:text="@string/button5_text"/>
+                    android:text="@string/button5_text"
+                    android:onClick="onClick"/>
 
                 <Button android:id="@+id/button6"
                     android:background="@drawable/button_bg"
@@ -100,7 +105,8 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/button_margin"
-                    android:text="@string/button6_text"/>
+                    android:text="@string/button6_text"
+                    android:onClick="onClick"/>
 
             </LinearLayout>
 

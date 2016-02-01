@@ -9,4 +9,5 @@
     <string name="button5_text">XYZ Reader</string>
     <string name="button6_text">Capstone: My own app</string>
     <string name="button7_text">There is no seventh button</string>
+    <string name="on_click_text">This button will launch</string>
 </resources>

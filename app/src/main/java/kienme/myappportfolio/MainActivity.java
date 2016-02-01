@@ -14,34 +14,12 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button[];
-    int i;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        button=new Button[6];
-        button[0]=(Button)findViewById(R.id.button);
-        button[1]=(Button)findViewById(R.id.button2);
-        button[2]=(Button)findViewById(R.id.button3);
-        button[3]=(Button)findViewById(R.id.button4);
-        button[4]=(Button)findViewById(R.id.button5);
-        button[5]=(Button)findViewById(R.id.button6);
-
-        for(i=0; i<6; ++i) {
-            button[i].setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Toast.makeText(MainActivity.this, "This button will launch "
-                                    + /*(getResources().getStringArray(R.array.button_text_array))[i]*/
-                            ((Button)v).getText()+ " :)"
-                            , Toast.LENGTH_SHORT).show();
-                }
-            });
-        }
     }
 
     @Override
@@ -64,5 +42,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onClick(View view) {
+        Toast.makeText(getApplicationContext(),
+                getResources().getString(R.string.on_click_text) + " " + ((Button)view).getText() + "!",
+                Toast.LENGTH_SHORT).show();
     }
 }
