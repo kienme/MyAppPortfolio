@@ -6,4 +6,5 @@
     <dimen name="button_width">220dp</dimen>
     <dimen name="button_padding">22dp</dimen>
     <dimen name="button_margin">2dp</dimen>
+    <dimen name="title_size">20sp</dimen>
 </resources>

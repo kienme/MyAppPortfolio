@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    android:background="#ffe91e63"
+    android:background="@color/backgroundColor"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -27,8 +27,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="My Nanodegree Apps!"
-        android:textSize="20sp"
+        android:text="@string/title_text"
+        android:textSize="@dimen/title_size"
         android:layout_marginTop="5dp"
         android:layout_below="@+id/view" />
 
